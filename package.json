@@ -1,0 +1,19 @@
+{
+  "name": "lexmentor",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "npm@11.11.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "dev": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "lint": "npm run lint -w apps/web",
+    "typecheck": "npm run typecheck -w apps/web"
+  }
+}
