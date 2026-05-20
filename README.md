@@ -6,6 +6,7 @@ Starter repozytorium dla portalu edukacyjnego **Lexmentor** – nowoczesnej plat
 - aplikację webową w `apps/web`,
 - współdzielone komponenty UI w `packages/ui`,
 - podstawową strukturę pod rozwój kursów, kazusów i panelu użytkownika,
+- sekcję `Prezentacje` (`/prezentacje`) – materiały do nauki w formacie slajdów (m.in. KPK – kontrola aktu oskarżenia),
 - instrukcje dla Codex w `AGENTS.md`,
 - prosty pipeline CI w GitHub Actions.
 
