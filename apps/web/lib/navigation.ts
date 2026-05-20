@@ -2,6 +2,7 @@ export const navigation = [
   { href: '/', label: 'Start' },
   { href: '/courses', label: 'Kursy' },
   { href: '/cases', label: 'Kazusy' },
+  { href: '/quiz', label: 'Quiz KSH' },
   { href: '/dashboard', label: 'Panel' }
 ]
 
